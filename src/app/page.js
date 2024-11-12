@@ -1,17 +1,13 @@
-"use client"
+"use client";
 
+import Home from "@/components/home";
 import React, { useEffect, useState } from "react";
-import Home from "./home";
-// import supabase from "../../lib/supabase";
-
 export default function index() {
   const [pageNo, setPageNo] = useState(1);
 
   // const { data } = await supabase.from("survey").select();
   // console.log("222" , data);
-  useEffect(()=>{
-
-  }, [pageNo])
+  useEffect(() => {}, [pageNo]);
 
   return (
     <div
