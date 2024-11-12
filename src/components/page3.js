@@ -85,16 +85,20 @@ function Page3({ setPageNo, formData, setFormData }) {
         className=""
         style={{
           color: "rgba(182, 182, 182, 1)",
-          zIndex: "2000",
+          zIndex: 200000,
         }}
       >
         Question 2
       </p>
-      <div>
+      <div
+      style={{
+        zIndex: 99999,
+      }}
+      >
         <p
           className="text-white font-bold text-2xl py-5"
           style={{
-            zIndex: "2000",
+            zIndex: "999999",
           }}
         >
           How important are these aspects for you?

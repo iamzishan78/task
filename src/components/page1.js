@@ -109,9 +109,9 @@ function Page1({ setPageNo, formData, setFormData }) {
   };
 
   return (
-    <div className="w-full md:w-1/2 flex  md:mt-0  flex-col md:items-end items-cener justify-start mt-[-28%] sm:mt-[-15%]">
+    <div className="w-full md:w-1/2 flex  md:mt-0  flex-col md:items-end items-cener justify-start md:justify-center mt-[-28%] sm:mt-[-15%] p-5">
       <h1
-        className="lg:text-7xl text-3xl font-bold text-white text-center md:text-6xl xl:text-8xl 2xl:text-9xl"
+        className="lg:text-6xl text-2xl  text-white text-center md:text-2xl xl:text-8xl 2xl:text-9xl"
         style={{
           zIndex: "2000",
         }}

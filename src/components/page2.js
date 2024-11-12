@@ -29,23 +29,22 @@ function Page2({ setPageNo, formData, setFormData }) {
       });
   };
   return (
-    <div className="w-full md:w-1/2 flex  flex-col  items-cener justify-center  text-center mt-[-28%] md:mt-0">
+    <div className="w-full md:w-1/2 flex  flex-col  items-cener justify-center  text-center mt-[-28%] sm:mt-[-15%] ">
       <p
         className=""
         style={{
           color: "rgba(182, 182, 182, 1)",
-          zIndex: "2000",
+          zIndex: 99999,
         }}
       >
         Question 1
       </p>
-      <div>
-        <p
-          className="text-white font-bold text-2xl py-5"
-          style={{
-            zIndex: "2000",
-          }}
-        >
+      <div
+        style={{
+          zIndex: 99999,
+        }}
+      >
+        <p className="text-white font-bold text-2xl py-5" style={{}}>
           What is your preferred choice?
         </p>
       </div>

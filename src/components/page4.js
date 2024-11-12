@@ -8,7 +8,7 @@ function Page4({ setPageNo , formData }) {
     <div className="w-full md:w-1/2  flex  flex-col   justify-start   md:pr-20">
       {/* md:w-1/2 */}
 
-      <div className="w-full  lg:w-10/12 xl:w-8/12 2xl:w-1/2 text-right">
+      <div className="w-full text-right">
         <p className="text-white font-bold text-6xl pt-5">Thank You</p>
         <p className="text-white font-bold text-2xl ">for your feedback!</p>
         <div className="flex md:justify-end justify-between mt-4 space-x-3">
