@@ -57,7 +57,7 @@ function Page3({ setPageNo, formData, setFormData }) {
       });
       setIsLoading(false);
 
-      // setPageNo(4);
+      setPageNo(4);
 
       // if (response.status === 204) {
       //   // Handle 204 No Content case if your API returns it
